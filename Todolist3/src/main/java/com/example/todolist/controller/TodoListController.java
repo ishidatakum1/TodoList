@@ -33,7 +33,7 @@ public class TodoListController {
 	
 	
 //	ToDo一覧表示
-	@GetMapping("/ishidatakum1.herokuapp.com/")
+	@GetMapping("/todo")
 	public ModelAndView showTodoList(ModelAndView mv) {
 		mv.setViewName("todoList");
 //		TodoRepositoryクラスはJPAを継承しているため、自動実装されたSQL操作メソッドが多数あり、findAll（全レコードの取得）もその一つ
